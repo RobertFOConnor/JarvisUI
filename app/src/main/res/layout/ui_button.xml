@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/base_circle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:tint="@color/white"
+        android:rotation="180"
+        android:src="@drawable/ui_circle" />
+
+    <ImageView
+        android:id="@+id/outer_circle"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:tint="@color/white"
+        android:src="@drawable/ic_ui_arc" />
+
+    <ImageView
+        android:id="@+id/inner_circle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        android:tint="@color/white"
+        android:rotation="180"
+        android:src="@drawable/ic_ui_arc" />
+
+</merge>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="JarvisButton">
+        <attr name="baseColor" format="color" />
+        <attr name="secondaryColor" format="color" />
+        <attr name="rotationTime" format="integer" />
+        <attr name="jarvisStyle" format="integer" />
+    </declare-styleable>
+</resources>
